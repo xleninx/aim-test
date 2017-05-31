@@ -1,6 +1,6 @@
 ## DomainStatus
 
-Example on: [DomainStatus Example](https://aim-domain-sStartatus.herokuapp.com/)
+Example on: [DomainStatus Example](https://aim-domain-status.herokuapp.com/)
 
 ## Description
 
