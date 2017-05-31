@@ -2,8 +2,8 @@ require_dependency "domain_status/application_controller"
 
 module DomainStatus
   class DomainsController < ApplicationController
-    def status
-      @status = HttpStatusService.new(status_params).status_code
+    def by_domain
+      @status = HttpStatusService.new(domain_params[:domain]).status_code
       respond_to do |format|
         format.html {}
         format.json { render json: { status: @status } }
@@ -12,7 +12,7 @@ module DomainStatus
 
     private
 
-      def status_params
+      def domain_params
         params.permit(:domain)
       end
   end
