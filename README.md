@@ -2,6 +2,10 @@
 
 Example on: [DomainStatus Example](https://aim-domain-sStartatus.herokuapp.com/)
 
+## Description
+
+DomainStatus gives your rails project the ability to know the status code of any domain. Supports `HTTP` and `JSON` requests
+
 ## Get Started
 
 1. StatusDomain works with Rails 4 onwards. You can add it to your Gemfile with:
@@ -16,7 +20,7 @@ Example on: [DomainStatus Example](https://aim-domain-sStartatus.herokuapp.com/)
 
   `mount DomainStatus::Engine => "/domain_status"`
 
-Now you can use all the features of StatusDomain
+Now you can use all the features of StatusDomain by entering the following url http://localhost:3000/domain_status/by_domain?domain=www.example.com`
 
 ## Test
 
