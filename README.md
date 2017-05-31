@@ -20,7 +20,7 @@ DomainStatus gives your rails project the ability to know the status code of any
 
   `mount DomainStatus::Engine => "/domain_status"`
 
-Now you can use all the features of StatusDomain by entering the following url http://localhost:3000/domain_status/by_domain?domain=www.example.com`
+Now you can use all the features of StatusDomain by entering the following url http://localhost:3000/domain_status/by_domain?domain=www.example.com
 
 ## Test
 
